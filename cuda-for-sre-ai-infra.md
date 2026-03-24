@@ -17,22 +17,7 @@
 
 Think of CUDA like the OS for your GPU. Just as Linux sits between your app and the CPU hardware, CUDA sits between AI frameworks and the GPU.
 
-```
-┌─────────────────────────────────────────┐
-│         AI Applications                 │  ← LLM inference, training jobs
-├─────────────────────────────────────────┤
-│         ML Frameworks                   │  ← PyTorch, TensorFlow, JAX
-├─────────────────────────────────────────┤
-│         CUDA Libraries                  │  ← cuDNN, cuBLAS, NCCL
-├─────────────────────────────────────────┤
-│         CUDA Runtime + Drivers          │  ← Kernel launches, memory mgmt
-├─────────────────────────────────────────┤
-│         NVIDIA GPU Hardware             │  ← A100, H100, V100
-└─────────────────────────────────────────┘
-```
-
 ![CUDA Stack Diagram](./cuda-stack-diagram.png)
-
 
 ### Key CUDA libraries to know
 
