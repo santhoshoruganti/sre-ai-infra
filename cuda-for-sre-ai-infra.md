@@ -31,7 +31,7 @@ Think of CUDA like the OS for your GPU. Just as Linux sits between your app and 
 └─────────────────────────────────────────┘
 ```
 
-![CUDA Stack Diagram](./cuda-stack-diagram.svg)
+![CUDA Stack Diagram](./cuda-stack-diagram.png)
 
 
 ### Key CUDA libraries to know
