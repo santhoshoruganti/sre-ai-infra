@@ -34,5 +34,3 @@ Each topic file follows the same structure:
 - **Learning path:** CUDA → GPU cluster ops → AI Infra engineering
 
 ---
-
-*Last updated: 2025*
